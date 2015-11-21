@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A027BEB21BF0E62F009881FA /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027BEB11BF0E62F009881FA /* HttpController.swift */; };
+		A027BEB41BF230AF009881FA /* EkoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027BEB31BF230AF009881FA /* EkoButton.swift */; };
+		A027BEB61BF3776E009881FA /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027BEB51BF3776E009881FA /* SwiftNotice.swift */; };
+		A027BEB81BF3779A009881FA /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A027BEB71BF3779A009881FA /* OrderButton.swift */; };
 		A0B6788C1BEF1874002F0DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6788B1BEF1874002F0DD4 /* AppDelegate.swift */; };
 		A0B6788E1BEF1874002F0DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B6788D1BEF1874002F0DD4 /* ViewController.swift */; };
 		A0B678911BEF1874002F0DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B6788F1BEF1874002F0DD4 /* Main.storyboard */; };
 		A0B678931BEF1874002F0DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B678921BEF1874002F0DD4 /* Assets.xcassets */; };
 		A0B678961BEF1874002F0DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B678941BEF1874002F0DD4 /* LaunchScreen.storyboard */; };
+		A0CE83F21BEF5B5C007430AF /* EkoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE83F11BEF5B5C007430AF /* EkoImageView.swift */; };
+		A0CE83F61BEF62DC007430AF /* ChannelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE83F51BEF62DC007430AF /* ChannelTableViewController.swift */; };
+		A0DEDF971BF0E0D2004146D1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A0DEDF961BF0E0D2004146D1 /* Podfile */; };
+		A0F71F121BFDF8EF00B513E4 /* img.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0F71F111BFDF8EF00B513E4 /* img.jpeg */; };
+		FEB41F9C12FD5581E466C78D /* Pods_DBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B0D2FBC25AC5C5F627D529 /* Pods_DBFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194EF6D30AD85356CE10562A /* Pods-DBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.debug.xcconfig"; sourceTree = "<group>"; };
+		A027BEB11BF0E62F009881FA /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		A027BEB31BF230AF009881FA /* EkoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoButton.swift; sourceTree = "<group>"; };
+		A027BEB51BF3776E009881FA /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		A027BEB71BF3779A009881FA /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		A0B678881BEF1874002F0DD4 /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B6788B1BEF1874002F0DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B6788D1BEF1874002F0DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,12 @@
 		A0B678921BEF1874002F0DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B678951BEF1874002F0DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B678971BEF1874002F0DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0CE83F11BEF5B5C007430AF /* EkoImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkoImageView.swift; sourceTree = "<group>"; };
+		A0CE83F51BEF62DC007430AF /* ChannelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewController.swift; sourceTree = "<group>"; };
+		A0DEDF961BF0E0D2004146D1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F71F111BFDF8EF00B513E4 /* img.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpeg; sourceTree = "<group>"; };
+		B2B0D2FBC25AC5C5F627D529 /* Pods_DBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F591956F6420C32BE036E592 /* Pods-DBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBFM/Pods-DBFM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB41F9C12FD5581E466C78D /* Pods_DBFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D71CEE97E98169BEA8F0B79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				194EF6D30AD85356CE10562A /* Pods-DBFM.debug.xcconfig */,
+				F591956F6420C32BE036E592 /* Pods-DBFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FA721E9D058AE270BBE1436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0D2FBC25AC5C5F627D529 /* Pods_DBFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A0B6787F1BEF1874002F0DD4 = {
 			isa = PBXGroup;
 			children = (
+				A0DEDF961BF0E0D2004146D1 /* Podfile */,
 				A0B6788A1BEF1874002F0DD4 /* DBFM */,
 				A0B678891BEF1874002F0DD4 /* Products */,
+				9D71CEE97E98169BEA8F0B79 /* Pods */,
+				9FA721E9D058AE270BBE1436 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,10 +95,17 @@
 		A0B6788A1BEF1874002F0DD4 /* DBFM */ = {
 			isa = PBXGroup;
 			children = (
+				A027BEB51BF3776E009881FA /* SwiftNotice.swift */,
 				A0B6788B1BEF1874002F0DD4 /* AppDelegate.swift */,
 				A0B6788D1BEF1874002F0DD4 /* ViewController.swift */,
+				A0CE83F51BEF62DC007430AF /* ChannelTableViewController.swift */,
+				A0CE83F11BEF5B5C007430AF /* EkoImageView.swift */,
+				A027BEB71BF3779A009881FA /* OrderButton.swift */,
+				A027BEB31BF230AF009881FA /* EkoButton.swift */,
 				A0B6788F1BEF1874002F0DD4 /* Main.storyboard */,
+				A0F71F111BFDF8EF00B513E4 /* img.jpeg */,
 				A0B678921BEF1874002F0DD4 /* Assets.xcassets */,
+				A027BEB11BF0E62F009881FA /* HttpController.swift */,
 				A0B678941BEF1874002F0DD4 /* LaunchScreen.storyboard */,
 				A0B678971BEF1874002F0DD4 /* Info.plist */,
 			);
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0B6789A1BEF1874002F0DD4 /* Build configuration list for PBXNativeTarget "DBFM" */;
 			buildPhases = (
+				F245240E54B30AF4D8D65483 /* Check Pods Manifest.lock */,
 				A0B678841BEF1874002F0DD4 /* Sources */,
 				A0B678851BEF1874002F0DD4 /* Frameworks */,
 				A0B678861BEF1874002F0DD4 /* Resources */,
+				356DE4F62AF01B8B462FEF7A /* Embed Pods Frameworks */,
+				ABC6DC1491E8EF9BB6B70F7D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +148,11 @@
 					A0B678871BEF1874002F0DD4 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 8ZGEZ5X9CC;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -123,13 +179,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F71F121BFDF8EF00B513E4 /* img.jpeg in Resources */,
 				A0B678961BEF1874002F0DD4 /* LaunchScreen.storyboard in Resources */,
 				A0B678931BEF1874002F0DD4 /* Assets.xcassets in Resources */,
+				A0DEDF971BF0E0D2004146D1 /* Podfile in Resources */,
 				A0B678911BEF1874002F0DD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		356DE4F62AF01B8B462FEF7A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBFM/Pods-DBFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC6DC1491E8EF9BB6B70F7D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBFM/Pods-DBFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F245240E54B30AF4D8D65483 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0B678841BEF1874002F0DD4 /* Sources */ = {
@@ -137,7 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B6788E1BEF1874002F0DD4 /* ViewController.swift in Sources */,
+				A027BEB21BF0E62F009881FA /* HttpController.swift in Sources */,
+				A0CE83F61BEF62DC007430AF /* ChannelTableViewController.swift in Sources */,
 				A0B6788C1BEF1874002F0DD4 /* AppDelegate.swift in Sources */,
+				A027BEB81BF3779A009881FA /* OrderButton.swift in Sources */,
+				A0CE83F21BEF5B5C007430AF /* EkoImageView.swift in Sources */,
+				A027BEB61BF3776E009881FA /* SwiftNotice.swift in Sources */,
+				A027BEB41BF230AF009881FA /* EkoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,9 +358,11 @@
 		};
 		A0B6789B1BEF1874002F0DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194EF6D30AD85356CE10562A /* Pods-DBFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.DBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,9 +371,11 @@
 		};
 		A0B6789C1BEF1874002F0DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F591956F6420C32BE036E592 /* Pods-DBFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DBFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.DBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +401,7 @@
 				A0B6789C1BEF1874002F0DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
